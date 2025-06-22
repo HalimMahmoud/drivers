@@ -1,0 +1,13 @@
+div.ui.selection.dropdown {
+  min-width: 80px;
+  font-size: 8px !important;
+}
+div.ui.selection.dropdown .menu > .item {
+  padding: 0.6rem !important;
+  font-size: 8px !important;
+}
+
+div.ui.horizontal.list > * {
+  vertical-align: middle;
+  min-height: 25px;
+}
