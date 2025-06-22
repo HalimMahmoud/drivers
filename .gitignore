@@ -12,6 +12,7 @@ drivers-f9210-firebase-adminsdk-jrl96-dbaa5ff474.json
 Drivers.json
 Santize.js
 out
+.gitignore
 # Firebase config
 
 # Uncomment this if you'd like others to create their own Firebase project.
