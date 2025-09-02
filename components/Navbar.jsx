@@ -5,10 +5,9 @@ import { logout, useAppStore } from "../lib/useFirebase";
 export default function Navbar() {
   const [activeItem, setActiveItem] = useState("home");
   const handleItemClick = (e, { name }) => {
-    console.log(name);
     setActiveItem(name);
   };
-  const { user } = useAppStore();
+  const { user, logout } = useAppStore();
   return (
     <Menu secondary>
       <Menu.Item
@@ -18,7 +17,7 @@ export default function Navbar() {
       />
 
       <Menu.Menu position="right">
-        <Menu.Item>{user.email}</Menu.Item>
+        <Menu.Item>{user?.email}</Menu.Item>
         <Menu.Item name="logout" onClick={logout} />
       </Menu.Menu>
     </Menu>

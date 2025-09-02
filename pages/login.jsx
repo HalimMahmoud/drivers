@@ -51,26 +51,41 @@ export default function Login() {
             Log-in to your account
           </Header>
           <Form size="large" onSubmit={handleSubmit}>
-            <Input
-              icon="user"
-              iconposition="left"
-              placeholder="Email"
-              name="email"
-              type="email"
-              onChange={handleChange}
-            />
+            <Segment>
+              <Form.Input
+                fluid
+                icon="user"
+                iconPosition="left"
+                placeholder="Email"
+                type="email"
+                name="email"
+                onChange={handleChange}
+                value={email}
+              />
 
-            <Input
-              icon="lock"
-              iconposition="left"
-              placeholder="Password"
-              type="password"
-              name="password"
-              onChange={handleChange}
-            />
-            <button type="submit" className="ui primary large button">
-              Login
-            </button>
+              <Form.Input
+                fluid
+                icon="lock"
+                iconPosition="left"
+                placeholder="Password"
+                type="password"
+                name="password"
+                onChange={handleChange}
+                value={password}
+              />
+
+              <Button
+                type="submit"
+                loading={loading}
+                disabled={loading}
+                color="teal"
+                fluid
+                size="large"
+                // onClick={() => setLoading(true)}
+              >
+                Login
+              </Button>
+            </Segment>
           </Form>
           <Message>
             New to us? <a href="#">Sign Up</a>
