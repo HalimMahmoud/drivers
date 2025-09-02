@@ -124,7 +124,7 @@ Create a collection named **`drivers`** in Firestore, and add documents with the
 - **blocked** → Whether the driver is blocked (`true` / `false`)
 - **updated** → Firestore timestamp object (`seconds` + `nanoseconds`)
 
-## 4. Run the App & Deployment
+## 4. Run the App
 
 ### Run Locally
 
