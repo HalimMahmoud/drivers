@@ -34,7 +34,7 @@ This project is designed as a lightweight tool to quickly find drivers by name, 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/searchbox.git
+git clone https://github.com/HalimMahmoud/drivers.git
 cd searchbox
 ```
 
@@ -109,6 +109,7 @@ Create a collection named **`drivers`** in Firestore, and add documents with the
     "nanoseconds": 274000000
   }
 }
+```
 
 ### Fields Explanation
 
@@ -117,19 +118,20 @@ Create a collection named **`drivers`** in Firestore, and add documents with the
 - **name** → Driver’s full name
 - **num** → Driver’s phone number (masked for privacy in this case)
 - **plate** → Vehicle plate number (Arabic + numbers)
-- **pool** → Assigned pool/region (e.g., *Maadi*)
+- **pool** → Assigned pool/region (e.g., _Maadi_)
 - **providerName** → Partner/fleet provider name
 - **approveStatus** → Driver approval status (`Approved`, `Pending`, etc.)
 - **blocked** → Whether the driver is blocked (`true` / `false`)
 - **updated** → Firestore timestamp object (`seconds` + `nanoseconds`)
-```
 
 ## 4. Run the App & Deployment
 
 ### Run Locally
 
 1. Start the development server:
+
    ```bash
    npm run dev
    ```
+
 2. Open your browser at http://localhost:3000
