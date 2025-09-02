@@ -135,3 +135,13 @@ Create a collection named **`drivers`** in Firestore, and add documents with the
    ```
 
 2. Open your browser at http://localhost:3000
+
+## 🔐 Test Account
+
+Use this test user to try the app:
+
+```
+🔑 Admin Login:
+ 📧 Email: halim_mahmoud50@yahoo.com
+ 🔑 Password: Password@123
+```
