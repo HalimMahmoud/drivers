@@ -136,12 +136,11 @@ Create a collection named **`drivers`** in Firestore, and add documents with the
 
 2. Open your browser at http://localhost:3000
 
-## 🔐 Test Account
+## 🔑 Credentials
 
-Use this test user to try the app:
+You can use the following demo accounts to log in:
 
-```
-🔑 Admin Login:
- 📧 Email: halim_mahmoud50@yahoo.com
- 🔑 Password: Password@123
-```
+### 👤 User Account
+
+- **Email:** `4167blue@powerscrews.com`
+- **Password:** `Pass@123`
